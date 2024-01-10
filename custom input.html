@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>getElementsById</title>
+</head>
+<body>
+
+    <h1>Your input is:</h1>
+     <h3 id="customInput">____</h3>
+    <script>
+
+    var name = prompt("what is your name?")
+    var h3Node = document.getElementById("customInput")
+    h3Node.innerText = name.toLowerCase()
+    console.log(name)
+
+    </script>
+</body>
+</html>

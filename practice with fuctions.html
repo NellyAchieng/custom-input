@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Practice With Functions</title>
+</head>
+<body>
+
+
+    <script>
+ fuctions doMath(num) {
+    num = Number(num);
+    if(num) {
+        //Is a real number
+        var newNumber = (num + 100) / 4;
+        return newNumber;
+    }else{
+        //Not a real number
+        return false;
+    }
+ }
+    var customNum = doMath("Victor")
+    console.log(customNum)
+
+    function $(id) {
+        console.log("Id is:, id")
+        return document.getElementById(id)
+    }
+    var titile = $("title");
+    title.innerText = "Custom inner text"
+
+    //Celius to fahrenheit
+    fuction cToF(c_num) {
+    var fahrenheit = (c_num * 1.8) + 32;
+    return fahrenheit;
+    }
+
+  var zero = cToF(0); console.log(zero);
+  var twenty = cToF(20); console.log(twenty);
+  var boiling = cToF(100); console.log(boiling)
+  var freezing = cToF(-40); console.log(freezing);
+
+  fuction name() {
+    return "return something"
+  }
+   
+  name()
+
+
+
+    </script>
+</body>
+</html>
